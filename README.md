@@ -17,4 +17,5 @@ For an Unraid container, paste that URL into the **Icon URL** field
 ## Tips
 
 - PNG or SVG with a transparent background works best; square, around 256×256.
-- Use lowercase, hyphenated filenames, e.g. `my-app.png`.
+- One folder per app, with files named `icon_<width>x<height>.png`,
+  e.g. `my-app/icon_192x192.png`.
