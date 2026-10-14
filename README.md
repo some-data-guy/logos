@@ -38,3 +38,22 @@ A print nozzle laying an amber bead on two printed layers, in deep teal
 | `icon_512x512_maskable.png` | PWA maskable icon, mark inside the safe zone |
 | `icon_256x256.png` | Transparent, for Unraid's Icon URL |
 | `lockup_light.svg`, `lockup_dark.svg` | Mark and name, for light and dark backgrounds |
+
+## beacon
+
+The central logging and monitoring system. Its mark is a lighthouse, drawn
+after the one on the somedataguy sea chart: an ink tower on its rock, the
+lantern lit amber and its light drawn as rays.
+
+| File | What it is |
+| --- | --- |
+| `beacon/logo.svg` | The master |
+| `beacon/logo_light.svg`, `beacon/logo_dark.svg` | For light and dark backgrounds |
+| `beacon/mono.svg` | One colour, for pinned tabs and masks |
+| `beacon/favicon.svg` | Favicon, switching with `prefers-color-scheme` |
+| `beacon/favicon.ico` | Favicon at 16, 32 and 48 px |
+| `beacon/icon_180x180.png` | Apple touch icon, opaque |
+| `beacon/icon_192x192.png`, `beacon/icon_512x512.png` | PWA icons |
+| `beacon/icon_512x512_maskable.png` | PWA maskable icon, inside its safe zone |
+| `beacon/icon_256x256.png` | Transparent, with a white edge so it reads on dark too, for Unraid's Icon URL |
+| `beacon/lockup_light.svg`, `beacon/lockup_dark.svg` | Mark and name; the name is outlined from Inter (SIL Open Font License) |
