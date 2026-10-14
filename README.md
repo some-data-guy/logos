@@ -23,7 +23,8 @@ For an Unraid container, paste that URL into the **Icon URL** field
 ## walter
 
 Claude for the apps at home: a mole coming up out of the ground,
-traced from its first favicon, with whiskers at its snout.
+traced from its first favicon and drawn to its full-size drawing, with a
+round nose and fine whiskers that contrast with what is behind them.
 
 | File | Use |
 | --- | --- |
