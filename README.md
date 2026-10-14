@@ -20,54 +20,6 @@ For an Unraid container, paste that URL into the **Icon URL** field
 - One folder per app, with files named `icon_<width>x<height>.png`,
   e.g. `my-app/icon_192x192.png`.
 
-## blender-tests
-
-A print nozzle laying an amber bead on two printed layers, in deep teal
-(`#041312`) with an amber filament accent. In `blender-tests/`:
-
-| File | Use |
-| --- | --- |
-| `logo.svg` | Master mark, mid teal, readable on light and dark |
-| `logo_light.svg` | Mark for light backgrounds |
-| `logo_dark.svg` | Mark for dark backgrounds |
-| `mono.svg` | One colour, for pinned tabs and masks |
-| `favicon.svg` | Favicon drawn for 16 px, switches with `prefers-color-scheme` |
-
-## mote
-
-A world lit from beyond the frame: a dark disc with an amber crescent at
-its limb, on a near-black rounded tile (`#0f0f12`). In `mote/`:
-
-| File | Use |
-| --- | --- |
-| `logo.svg` | Master: the mark on its tile, the source of `icon_512x512.png` |
-| `logo_light.svg` | Mark without the tile, for light backgrounds |
-| `logo_dark.svg` | Mark without the tile, for dark backgrounds |
-| `mono.svg` | One colour, for pinned tabs and masks |
-| `favicon.svg` | Favicon: a thicker crescent drawn for 32 px and under, on the tile, so it reads on light and dark |
-| `favicon.ico` | 16, 32 and 48 px |
-| `icon_180x180.png` | Apple touch icon, opaque |
-
-## slate
-
-A stack of three entries, the front one whole, on a dark rounded tile,
-drawn on a 16-unit grid so every edge falls on a pixel at 16 px. Greys
-only (`#22242a` to `#e6e7ea`). In `slate/`:
-
-| File | Use |
-| --- | --- |
-| `logo.svg` | Master mark, the dark tile, readable on light and dark |
-| `logo_light.svg` | Pale tile, for light backgrounds |
-| `logo_dark.svg` | Dark tile, for dark backgrounds |
-| `mono.svg` | One colour, for pinned tabs and masks |
-| `favicon.svg` | Favicon drawn for 16 px, switches with `prefers-color-scheme` |
-| `favicon.ico` | 16, 32 and 48 px |
-| `icon_180x180.png` | Apple touch icon (the original file, corners transparent) |
-| `icon_192x192.png`, `icon_512x512.png` | PWA icons, rounded tile |
-| `icon_512x512_maskable.png` | PWA maskable icon, mark inside the safe zone |
-| `icon_256x256.png` | Transparent, for Unraid's Icon URL |
-| `lockup_light.svg`, `lockup_dark.svg` | Mark and name, for light and dark backgrounds |
-
 ## beacon
 
 The central logging and monitoring system. Its mark is a lighthouse, drawn
@@ -86,6 +38,63 @@ lantern lit amber and its light drawn as rays.
 | `beacon/icon_512x512_maskable.png` | PWA maskable icon, inside its safe zone |
 | `beacon/icon_256x256.png` | Transparent, with a white edge so it reads on dark too, for Unraid's Icon URL |
 | `beacon/lockup_light.svg`, `beacon/lockup_dark.svg` | Mark and name; the name is outlined from Inter (SIL Open Font License) |
+
+## blender-tests
+
+A print nozzle laying an amber bead on two printed layers, in deep teal
+(`#041312`) with an amber filament accent. In `blender-tests/`:
+
+| File | Use |
+| --- | --- |
+| `logo.svg` | Master mark, mid teal, readable on light and dark |
+| `logo_light.svg` | Mark for light backgrounds |
+| `logo_dark.svg` | Mark for dark backgrounds |
+| `mono.svg` | One colour, for pinned tabs and masks |
+| `favicon.svg` | Favicon drawn for 16 px, switches with `prefers-color-scheme` |
+| `favicon.ico` | 16, 32 and 48 px |
+| `icon_180x180.png` | Apple touch icon, opaque |
+| `icon_192x192.png`, `icon_512x512.png` | PWA icons, rounded tile |
+| `icon_512x512_maskable.png` | PWA maskable icon, mark inside the safe zone |
+| `icon_256x256.png` | Transparent, for Unraid's Icon URL |
+| `lockup_light.svg`, `lockup_dark.svg` | Mark and name, for light and dark backgrounds |
+
+## mote
+
+A world lit from beyond the frame: a dark disc with an amber crescent at
+its limb, on a near-black rounded tile (`#0f0f12`). In `mote/`:
+
+| File | Use |
+| --- | --- |
+| `logo.svg` | Master: the mark on its tile, the source of `icon_512x512.png` |
+| `logo_light.svg` | Mark without the tile, for light backgrounds |
+| `logo_dark.svg` | Mark without the tile, for dark backgrounds |
+| `mono.svg` | One colour, for pinned tabs and masks |
+| `favicon.svg` | Favicon: a thicker crescent drawn for 32 px and under, on the tile, so it reads on light and dark |
+| `favicon.ico` | 16, 32 and 48 px |
+| `icon_180x180.png` | Apple touch icon, opaque |
+| `icon_192x192.png`, `icon_512x512.png` | PWA icons, rounded tile |
+| `icon_512x512_maskable.png` | PWA maskable icon, mark inside the safe zone |
+| `icon_256x256.png` | Transparent corners, for Unraid's Icon URL |
+| `lockup_light.svg`, `lockup_dark.svg` | The mark above MOTE, the crescent as the O, for light and dark backgrounds |
+
+## pawsy
+
+Pawsy's paw in marigold (`#f3b84b`) on ink (`#1c2333`), as the app
+installs with. In `pawsy/`:
+
+| File | Use |
+| --- | --- |
+| `logo.svg` | Master: the paw on its rounded ink square |
+| `logo_light.svg` | The paw in ink, for light backgrounds |
+| `logo_dark.svg` | The paw in marigold, for dark backgrounds |
+| `mono.svg` | One colour, for pinned tabs and masks |
+| `favicon.svg` | Favicon: the opaque square, the same on light and dark |
+| `favicon.ico` | 16, 32 and 48 px |
+| `icon_180x180.png` | Apple touch icon, opaque |
+| `icon_192x192.png`, `icon_512x512.png` | PWA icons, rounded square |
+| `icon_512x512_maskable.png` | PWA maskable icon, paw inside the safe zone |
+| `icon_256x256.png` | Rounded square with transparent corners, for Unraid's Icon URL |
+| `lockup_light.svg`, `lockup_dark.svg` | Paw and name, for light and dark backgrounds |
 
 ## pwa
 
@@ -110,25 +119,22 @@ sync arrows cut through it, on a rounded tile.
 
 The name in the lockups is drawn from Inter (SIL Open Font License).
 
-## pawsy
+## slate
 
-Pawsy's paw in marigold (`#f3b84b`) on ink (`#1c2333`), as the app
-installs with. In `pawsy/`:
+A stack of three entries, the front one whole, on a dark rounded tile,
+drawn on a 16-unit grid so every edge falls on a pixel at 16 px. Greys
+only (`#22242a` to `#e6e7ea`). In `slate/`:
 
 | File | Use |
 | --- | --- |
-| `logo.svg` | Master: the paw on its rounded ink square |
-| `logo_light.svg` | The paw in ink, for light backgrounds |
-| `logo_dark.svg` | The paw in marigold, for dark backgrounds |
+| `logo.svg` | Master mark, the dark tile, readable on light and dark |
+| `logo_light.svg` | Pale tile, for light backgrounds |
+| `logo_dark.svg` | Dark tile, for dark backgrounds |
 | `mono.svg` | One colour, for pinned tabs and masks |
-| `favicon.svg` | Favicon: the opaque square, the same on light and dark |
+| `favicon.svg` | Favicon drawn for 16 px, switches with `prefers-color-scheme` |
 | `favicon.ico` | 16, 32 and 48 px |
-| `icon_180x180.png` | Apple touch icon, opaque |
-| `icon_192x192.png`, `icon_512x512.png` | PWA icons, rounded square |
-| `icon_512x512_maskable.png` | PWA maskable icon, paw inside the safe zone |
-| `icon_256x256.png` | Rounded square with transparent corners, for Unraid's Icon URL |
-| `lockup_light.svg`, `lockup_dark.svg` | Paw and name, for light and dark backgrounds |
-
-| `icon_256x256.png` | Transparent corners, for Unraid's Icon URL |
-| `lockup_light.svg`, `lockup_dark.svg` | The mark above MOTE, the crescent as the O, for light and dark backgrounds |
-
+| `icon_180x180.png` | Apple touch icon (the original file, corners transparent) |
+| `icon_192x192.png`, `icon_512x512.png` | PWA icons, rounded tile |
+| `icon_512x512_maskable.png` | PWA maskable icon, mark inside the safe zone |
+| `icon_256x256.png` | Transparent, for Unraid's Icon URL |
+| `lockup_light.svg`, `lockup_dark.svg` | Mark and name, for light and dark backgrounds |
