@@ -5,14 +5,52 @@ referenced by URL from places like Unraid Docker templates.
 
 ## Usage
 
-Reference a file by its raw URL:
+Reference a file by its raw URL, always in this form, with `main` and not
+`refs/heads/main`:
 
 ```
-https://raw.githubusercontent.com/some-data-guy/logos/main/<path-to-file>
+https://raw.githubusercontent.com/some-data-guy/logos/main/<folder>/<file>
 ```
 
-For an Unraid container, paste that URL into the **Icon URL** field
-(advanced view) of the container template.
+A file once published keeps its name and path, since other apps and
+servers point at it.
+
+### Unraid
+
+A container's icon on Unraid's Docker page is its label
+`net.unraid.docker.icon`, which names the folder's `icon_256x256.png` by
+its raw URL:
+
+- A container from an Unraid template: the template's **Icon URL**
+  (advanced view; `<Icon>` in its XML). Unraid sets the label from it
+  when it recreates the container.
+- A Compose Manager project: the label on every service in the compose
+  file:
+
+  ```yaml
+  labels:
+    net.unraid.docker.icon: https://raw.githubusercontent.com/some-data-guy/logos/main/<folder>/icon_256x256.png
+  ```
+
+Unraid downloads an icon once and keeps it; after the URL changes, its
+cached copy has to be dropped before the new icon shows.
+
+### Adding a set
+
+- One folder per project or service, named as it is, in lower case.
+- Every folder holds the full set below, by exactly these names. A
+  project with a logo keeps it and makes the missing files from it; one
+  without draws three options that fit it, compares them light and dark
+  at full size and at 16 px, and makes the set from the one picked.
+- Check each file on light and dark backgrounds at 16, 32, 180 and
+  512 px.
+- Give the folder a section below, saying what its mark is and anything
+  particular to its files, and the font any lockup's name is drawn from.
+- Names in lockups are outlines, not text, from an openly licensed font
+  (Inter Bold unless the project has its own face).
+- Work on a branch, `logos-<folder>`, merged into `main`.
+- Nothing private: this repository is public. No server or container
+  names, no addresses, no personal details.
 
 ## The set
 
