@@ -57,3 +57,26 @@ lantern lit amber and its light drawn as rays.
 | `beacon/icon_512x512_maskable.png` | PWA maskable icon, inside its safe zone |
 | `beacon/icon_256x256.png` | Transparent, with a white edge so it reads on dark too, for Unraid's Icon URL |
 | `beacon/lockup_light.svg`, `beacon/lockup_dark.svg` | Mark and name; the name is outlined from Inter (SIL Open Font License) |
+
+## pwa
+
+The offline-first base for the self-hosted web apps: a teal house with
+sync arrows cut through it, on a rounded tile.
+
+| File | Use |
+| --- | --- |
+| `pwa/logo.svg` | The logo, on its dark tile |
+| `pwa/logo_light.svg` | Light tile, for light backgrounds |
+| `pwa/logo_dark.svg` | Dark tile, for dark backgrounds |
+| `pwa/mono.svg` | One colour (black), for pinned tabs and masks |
+| `pwa/favicon.svg` | Favicon; light or dark tile with `prefers-color-scheme` |
+| `pwa/favicon.ico` | Favicon at 16, 32 and 48 px |
+| `pwa/icon_180x180.png` | Apple touch icon, opaque |
+| `pwa/icon_192x192.png` | Web app manifest icon |
+| `pwa/icon_512x512.png` | Web app manifest icon |
+| `pwa/icon_512x512_maskable.png` | Maskable manifest icon, mark inside the safe zone |
+| `pwa/icon_256x256.png` | Transparent, for Unraid's Icon URL |
+| `pwa/lockup_light.svg` | Mark and name, for light backgrounds |
+| `pwa/lockup_dark.svg` | Mark and name, for dark backgrounds |
+
+The name in the lockups is drawn from Inter (SIL Open Font License).
