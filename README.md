@@ -59,7 +59,7 @@ lantern lit amber and its light drawn as rays.
 
 ## beacon-home
 
-TheAttic's beacon sender, one of beacon's family: beacon's lantern, dome and rays set on a house, in beacon's ink, white and amber. One logo for `beacon-home-sender`, `beacon-home-syslog` and `beacon-home-docker-proxy`. In `beacon-home/`:
+beacon's sender at home, one of beacon's family: beacon's lantern, dome and rays set on a house, in beacon's ink, white and amber. In `beacon-home/`:
 
 | File | Use |
 | --- | --- |
@@ -96,7 +96,7 @@ A print nozzle laying an amber bead on two printed layers, in deep teal
 
 ## caddy
 
-The web server in front of the sites on pip: a fingerpost on its mound, one arm in the sea chart's red, in its ink and parchment. In `caddy/`:
+The web server in front of the sites: a fingerpost on its mound, one arm in the sea chart's red, in its ink and parchment. In `caddy/`:
 
 | File | Use |
 | --- | --- |
@@ -114,7 +114,7 @@ The web server in front of the sites on pip: a fingerpost on its mound, one arm 
 
 ## courier
 
-The tunnel from home to pip: a letter under a red wax seal, carried closed end to end, in the sea chart's ink and parchment. One logo for `courier`, `courier-frpc`, `courier-log`, `relay` and `intake`. In `courier/`:
+The courier between services: a letter under a red wax seal, carried closed end to end, in the sea chart's ink and parchment. In `courier/`:
 
 | File | Use |
 | --- | --- |
@@ -132,7 +132,7 @@ The tunnel from home to pip: a letter under a red wax seal, carried closed end t
 
 ## door
 
-somedataguy's sign-in front door: an arched door on its step, its keyhole in the sea chart's red, in sepia ink on parchment (the night chart in dark). One logo for the door and its helper `door-store`. In `door/`:
+somedataguy's sign-in front door: an arched door on its step, its keyhole in the sea chart's red, in sepia ink on parchment (the night chart in dark). In `door/`:
 
 | File | Use |
 | --- | --- |
