@@ -14,11 +14,25 @@ https://raw.githubusercontent.com/some-data-guy/logos/main/<path-to-file>
 For an Unraid container, paste that URL into the **Icon URL** field
 (advanced view) of the container template.
 
-## Tips
+## The set
 
-- PNG or SVG with a transparent background works best; square, around 256×256.
-- One folder per app, with files named `icon_<width>x<height>.png`,
-  e.g. `my-app/icon_192x192.png`.
+One folder per app, each holding the same thirteen files:
+
+| File | Use |
+| --- | --- |
+| `logo.svg` | The master |
+| `logo_light.svg`, `logo_dark.svg` | For light and for dark backgrounds |
+| `mono.svg` | One colour, for pinned tabs and masks |
+| `favicon.svg` | Favicon, drawn for small sizes; may switch with `prefers-color-scheme` |
+| `favicon.ico` | Favicon at 16, 32 and 48 px |
+| `icon_180x180.png` | Apple touch icon, opaque |
+| `icon_192x192.png`, `icon_512x512.png` | Web app manifest icons |
+| `icon_512x512_maskable.png` | Maskable manifest icon, the mark inside the safe zone |
+| `icon_256x256.png` | Square, transparent, for Unraid's **Icon URL** |
+| `lockup_light.svg`, `lockup_dark.svg` | Mark and name, for light and dark backgrounds; names are outlines, from openly licensed fonts |
+
+PNGs are named `icon_<width>x<height>.png`. Each app's section below says
+what its mark is and anything particular to its files.
 
 ## somedataguy
 
