@@ -224,6 +224,28 @@ on a 16-unit grid, so every edge falls on a pixel at 16 px. In `frame/`:
 The name in the lockups is drawn from Inter Bold (SIL Open Font
 License 1.1).
 
+## home
+
+A dashboard and API for a house's smart devices: a roof over a toggle
+switched on, the house's controls under one roof. Teal (`#3ecf9e`, and
+`#14a57a` on the light tile) and a pale ink on a dark rounded tile
+(`#1f2f38` to `#121c22`), drawn on a 16-unit grid so the toggle's edges
+fall on pixels at 16 px. In `home/`:
+
+| File | Use |
+| --- | --- |
+| `logo.svg` | Master mark, the dark tile, readable on light and dark |
+| `logo_light.svg` | Pale tile, ink roof, for light backgrounds |
+| `logo_dark.svg` | Dark tile with a lighter edge, for dark backgrounds |
+| `mono.svg` | One colour: the tile with the roof and toggle cut out, the knob left in |
+| `favicon.svg` | Favicon drawn for 16 px (the knob on whole pixels), switches with `prefers-color-scheme` |
+| `favicon.ico` | 16, 32 and 48 px, the dark tile drawn for small sizes |
+| `icon_180x180.png` | Apple touch icon, opaque, the tile to its edges |
+| `icon_192x192.png`, `icon_512x512.png` | PWA icons, rounded tile |
+| `icon_512x512_maskable.png` | PWA maskable icon, the mark inside the safe zone |
+| `icon_256x256.png` | Transparent corners, the dark tile with its lighter edge so it keeps its outline on a dark page, for Unraid's Icon URL |
+| `lockup_light.svg`, `lockup_dark.svg` | Mark and name; the name is outlined from Inter Bold (SIL Open Font License) |
+
 ## ledger
 
 The personal finance app. Its mark is a ruled ledger page on a green tile
