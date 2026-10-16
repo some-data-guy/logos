@@ -200,6 +200,30 @@ somedataguy's sign-in front door: an arched door on its step, its keyhole in the
 | `icon_256x256.png` | Transparent, for Unraid's Icon URL; a thin light edge keeps its outline on a dark page |
 | `lockup_light.svg`, `lockup_dark.svg` | Mark and name (Inter Bold, as outlines), for light and dark backgrounds |
 
+## frame
+
+A photo frame turned into a glanceable screen: a landscape screen in a
+pale bezel showing three cards, one tall in sky blue (`#7cc4ff`), one
+slate, one amber (`#f2b134`), on a dark rounded tile (`#1d2433`). Drawn
+on a 16-unit grid, so every edge falls on a pixel at 16 px. In `frame/`:
+
+| File | Use |
+| --- | --- |
+| `logo.svg` | Master mark, the dark tile, readable on light and dark |
+| `logo_light.svg` | Pale tile, ink bezel, for light backgrounds |
+| `logo_dark.svg` | Dark tile with a lighter edge, for dark backgrounds |
+| `mono.svg` | One colour: the tile with the screen cut out and the cards in it |
+| `favicon.svg` | Favicon drawn for 16 px, switches with `prefers-color-scheme` |
+| `favicon.ico` | 16, 32 and 48 px, the dark tile |
+| `icon_180x180.png` | Apple touch icon, opaque square |
+| `icon_192x192.png`, `icon_512x512.png` | PWA icons, rounded tile |
+| `icon_512x512_maskable.png` | PWA maskable icon, the screen inside the safe zone |
+| `icon_256x256.png` | Rounded tile with transparent corners, for Unraid's Icon URL |
+| `lockup_light.svg`, `lockup_dark.svg` | Mark and name, for light and dark backgrounds |
+
+The name in the lockups is drawn from Inter Bold (SIL Open Font
+License 1.1).
+
 ## ledger
 
 The personal finance app. Its mark is a ruled ledger page on a green tile
