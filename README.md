@@ -267,6 +267,28 @@ the total and the double rule. In `ledger/`:
 | `icon_256x256.png` | Rounded tile with transparent corners, for Unraid's Icon URL |
 | `lockup_light.svg`, `lockup_dark.svg` | Mark and name, for light and dark backgrounds; the name is outlined from Inter (SIL Open Font License) |
 
+## loft
+
+A self-hosted photo and video library, the photo loft: a roof over a
+framed photo of a hill and the sun, the pictures kept up under the roof.
+Pale stone ink (`#fafaf9`) and sky (`#7dd3fc`, and `#38bdf8` on the light
+tile) on a dark stone rounded tile (`#1c1917`), drawn on a 16-unit grid.
+In `loft/`:
+
+| File | Use |
+| --- | --- |
+| `logo.svg` | Master mark, the dark tile, readable on light and dark |
+| `logo_light.svg` | Pale tile, ink roof and frame, for light backgrounds |
+| `logo_dark.svg` | Dark tile with a lighter edge, for dark backgrounds |
+| `mono.svg` | One colour: the tile with the roof, frame, hill and sun cut out |
+| `favicon.svg` | Favicon drawn for 16 px (a heavier roof, the frame on whole pixels), switches with `prefers-color-scheme` |
+| `favicon.ico` | 16, 32 and 48 px, the dark tile drawn for small sizes |
+| `icon_180x180.png` | Apple touch icon, opaque, the tile to its edges |
+| `icon_192x192.png`, `icon_512x512.png` | PWA icons, rounded tile |
+| `icon_512x512_maskable.png` | PWA maskable icon, the mark inside the safe zone |
+| `icon_256x256.png` | Transparent corners, the dark tile with its lighter edge so it keeps its outline on a dark page, for Unraid's Icon URL |
+| `lockup_light.svg`, `lockup_dark.svg` | Mark and name; the name is outlined from Inter Bold (SIL Open Font License 1.1) |
+
 ## mote
 
 A world lit from beyond the frame: a dark disc with an amber crescent at
