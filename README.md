@@ -290,7 +290,7 @@ In `loft/`:
 | `icon_192x192.png`, `icon_512x512.png` | PWA icons, rounded paper tile |
 | `icon_512x512_maskable.png` | PWA maskable icon, paper to the edges, the mark inside the safe zone |
 | `icon_256x256.png` | Transparent corners, the paper tile with its ruled edge, for Unraid's Icon URL |
-| `lockup_light.svg`, `lockup_dark.svg` | Mark and name; the name is loft's own face, outlined from Fraunces Italic at weight 500 and optical size 34 as the app's masthead sets it (SIL Open Font License 1.1) |
+| `lockup_light.svg`, `lockup_dark.svg` | Mark and name; the name is loft's own face, outlined from Fraunces Italic at weight 500, optical size 34, WONK 0 (a plain "l", not the swash) and SOFT 50, as the app's masthead sets it (SIL Open Font License 1.1) |
 
 ## mote
 
