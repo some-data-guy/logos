@@ -270,24 +270,27 @@ the total and the double rule. In `ledger/`:
 ## loft
 
 A self-hosted photo and video library, the photo loft: a roof over a
-framed photo of a hill and the sun, the pictures kept up under the roof.
-Pale stone ink (`#fafaf9`) and sky (`#7dd3fc`, and `#38bdf8` on the light
-tile) on a dark stone rounded tile (`#1c1917`), drawn on a 16-unit grid.
+print of a hill and the sun, the pictures kept up under the roof. In the
+app's own paper, ink and ochre: an ink roofline and print (`#171512`), the
+print's mat (`#ebe6db`) and an ochre sun (`#8f5706`) on a paper tile
+(`#f6f3ec`) with a ruled edge (`#d9d3c7`); on dark, pale ink (`#efe9dd`),
+a dark mat (`#26221d`) and a lighter ochre (`#e0b25a`) on the ink tile
+(`#13110f`). Drawn on a 64-unit grid, square corners on the roof and print.
 In `loft/`:
 
 | File | Use |
 | --- | --- |
-| `logo.svg` | Master mark, the dark tile, readable on light and dark |
-| `logo_light.svg` | Pale tile, ink roof and frame, for light backgrounds |
-| `logo_dark.svg` | Dark tile with a lighter edge, for dark backgrounds |
-| `mono.svg` | One colour: the tile with the roof, frame, hill and sun cut out |
-| `favicon.svg` | Favicon drawn for 16 px (a heavier roof, the frame on whole pixels), switches with `prefers-color-scheme` |
-| `favicon.ico` | 16, 32 and 48 px, the dark tile drawn for small sizes |
-| `icon_180x180.png` | Apple touch icon, opaque, the tile to its edges |
-| `icon_192x192.png`, `icon_512x512.png` | PWA icons, rounded tile |
-| `icon_512x512_maskable.png` | PWA maskable icon, the mark inside the safe zone |
-| `icon_256x256.png` | Transparent corners, the dark tile with its lighter edge so it keeps its outline on a dark page, for Unraid's Icon URL |
-| `lockup_light.svg`, `lockup_dark.svg` | Mark and name; the name is outlined from Inter Bold (SIL Open Font License 1.1) |
+| `logo.svg` | Master mark, the paper tile with its edge, readable on light and dark |
+| `logo_light.svg` | The same, for light backgrounds |
+| `logo_dark.svg` | Ink tile with a lighter edge, pale roof and print, for dark backgrounds |
+| `mono.svg` | One colour, no tile: the roof, the print's frame, the hill and the sun |
+| `favicon.svg` | Favicon drawn on a 16-unit grid for 16 px (a heavier roof, the print on whole pixels, the hill one slope), switches with `prefers-color-scheme` |
+| `favicon.ico` | 16, 32 and 48 px, the paper favicon |
+| `icon_180x180.png` | Apple touch icon, opaque, the paper to its edges |
+| `icon_192x192.png`, `icon_512x512.png` | PWA icons, rounded paper tile |
+| `icon_512x512_maskable.png` | PWA maskable icon, paper to the edges, the mark inside the safe zone |
+| `icon_256x256.png` | Transparent corners, the paper tile with its ruled edge, for Unraid's Icon URL |
+| `lockup_light.svg`, `lockup_dark.svg` | Mark and name; the name is loft's own face, outlined from Fraunces Italic at weight 500 and optical size 34 as the app's masthead sets it (SIL Open Font License 1.1) |
 
 ## mote
 
