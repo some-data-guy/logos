@@ -269,22 +269,22 @@ the total and the double rule. In `ledger/`:
 
 ## loft
 
-A self-hosted photo and video library, the photo loft: a roof over a
-print of a hill and the sun, the pictures kept up under the roof. In the
-app's own paper, ink and ochre: an ink roofline and print (`#171512`), the
-print's mat (`#ebe6db`) and an ochre sun (`#8f5706`) on a paper tile
-(`#f6f3ec`) with a ruled edge (`#d9d3c7`); on dark, pale ink (`#efe9dd`),
-a dark mat (`#26221d`) and a lighter ochre (`#e0b25a`) on the ink tile
-(`#13110f`). Drawn on a 64-unit grid, square corners on the roof and print.
-In `loft/`:
+A self-hosted photo and video library: a framed print of a hill and the
+sun, one picture from the library on the wall. In the app's own paper,
+ink and ochre: an ochre frame (`#8f5706`) round the print's mat
+(`#ebe6db`), an ink hill and sun (`#171512`), on a paper tile (`#f6f3ec`)
+with a ruled edge (`#d9d3c7`); on dark, a lighter ochre frame
+(`#e0b25a`), a dark mat (`#26221d`) and a pale hill and sun (`#efe9dd`)
+on the ink tile (`#13110f`). Drawn on a 64-unit grid, square corners on
+the frame. In `loft/`:
 
 | File | Use |
 | --- | --- |
 | `logo.svg` | Master mark, the paper tile with its edge, readable on light and dark |
 | `logo_light.svg` | The same, for light backgrounds |
-| `logo_dark.svg` | Ink tile with a lighter edge, pale roof and print, for dark backgrounds |
-| `mono.svg` | One colour, no tile: the roof, the print's frame, the hill and the sun |
-| `favicon.svg` | Favicon drawn on a 16-unit grid for 16 px (a heavier roof, the print on whole pixels, the hill one slope), switches with `prefers-color-scheme` |
+| `logo_dark.svg` | Ink tile with a lighter edge, lighter ochre frame, pale hill and sun, for dark backgrounds |
+| `mono.svg` | One colour, no tile: the frame, the hill and the sun |
+| `favicon.svg` | Favicon drawn on a 16-unit grid for 16 px (a one-pixel frame, the sun a square, the hill one slope, all on whole pixels), switches with `prefers-color-scheme` |
 | `favicon.ico` | 16, 32 and 48 px, the paper favicon |
 | `icon_180x180.png` | Apple touch icon, opaque, the paper to its edges |
 | `icon_192x192.png`, `icon_512x512.png` | PWA icons, rounded paper tile |
