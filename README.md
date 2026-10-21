@@ -292,6 +292,31 @@ the frame. In `loft/`:
 | `icon_256x256.png` | Transparent corners, the paper tile with its ruled edge, for Unraid's Icon URL |
 | `lockup_light.svg`, `lockup_dark.svg` | Mark and name; the name is loft's own face, outlined from Fraunces Italic at weight 500, optical size 34, WONK 0 (a plain "l", not the swash) and SOFT 50, as the app's masthead sets it (SIL Open Font License 1.1) |
 
+## loft-sync
+
+The Syncthing that brings loft's photos in from phones, one of loft's
+family: loft's framed print, drawn smaller, with two arrows going round
+it, in loft's paper, ink and ochre. The print is an ochre frame
+(`#8f5706`) round the mat (`#ebe6db`) with an ink hill and sun
+(`#171512`); the arrows are the frame's ochre, on the paper tile
+(`#f6f3ec`) with its ruled edge (`#d9d3c7`). On dark, the lighter ochre
+(`#e0b25a`), a dark mat (`#26221d`) and a pale hill and sun (`#efe9dd`) on
+the ink tile (`#13110f`). Drawn on loft's 64-unit grid. In `loft-sync/`:
+
+| File | Use |
+| --- | --- |
+| `logo.svg` | Master mark, the paper tile with its edge, readable on light and dark |
+| `logo_light.svg` | The same, for light backgrounds |
+| `logo_dark.svg` | Ink tile with a lighter edge, lighter ochre frame and arrows, pale hill and sun, for dark backgrounds |
+| `mono.svg` | One colour, no tile: the frame, the hill, the sun and the arrows |
+| `favicon.svg` | Favicon drawn on a 16-unit grid for 16 px, all on whole pixels: a one-pixel frame round the mat, the sun a pixel, the hill a step, and the arrows straight, as harpoons (⇌) above and below the print; switches with `prefers-color-scheme` |
+| `favicon.ico` | 16 px from the paper favicon, 32 and 48 px from the logo |
+| `icon_180x180.png` | Apple touch icon, opaque, the paper to its edges |
+| `icon_192x192.png`, `icon_512x512.png` | PWA icons, rounded paper tile |
+| `icon_512x512_maskable.png` | PWA maskable icon, paper to the edges, the mark at three quarters inside the safe zone |
+| `icon_256x256.png` | Transparent corners, the paper tile with its ruled edge, for Unraid's Icon URL |
+| `lockup_light.svg`, `lockup_dark.svg` | Mark and name; the name "loft-sync" in loft's own face, outlined from Fraunces Italic at weight 500, optical size 34, WONK 0 and SOFT 50, set as loft's lockup sets "loft" (SIL Open Font License 1.1) |
+
 ## mote
 
 A world lit from beyond the frame: a dark disc with an amber crescent at
